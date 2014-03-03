@@ -1,0 +1,21 @@
+{
+    "name": "agallou/regions",
+    "description": "Liste des régions Françaises",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Gallou",
+            "email": "adriengallou@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require-dev": {
+        "atoum/atoum": "0.0.1",
+        "m6web/coke": "1.0.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
