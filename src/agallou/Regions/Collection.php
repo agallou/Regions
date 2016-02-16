@@ -34,7 +34,7 @@ class Collection extends \ArrayIterator
         array(
             'code'              => '26',
             'label'             => 'Bourgogne',
-            'code_departements' => array(),
+            'code_departements' => array('21', '58', '71', '89'),
         ),
         array(
             'code'              => '53',
