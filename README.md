@@ -62,3 +62,16 @@ foreach ($departements as $code => $label) {
 //int(82)
 //string(12) "Rhône-Alpes"
 ```
+
+Regions 2016
+------------
+
+Le découpage des nouvelles régions suite à la loi 2015-29 du 16 janvier 2015 relative à la délimitation des régions est aussi disponible.
+
+Ce découpage est disponible via la classe `Collection2016` :
+
+```php
+$regions = new \agallou\Regions\Collection2016();
+var_dump($regions->get('84')->getLabel());
+//string(10) "Auvergne-Rhône-Alpes"
+```
